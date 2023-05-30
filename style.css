@@ -50,3 +50,30 @@ body h1{
 .hover {
     background-color: rgb(116, 188, 236);
 }
+@media (min-width:390px) and (max-width:767px) {
+    body h1{
+        height: 80px;
+        font-size: 25px;
+    }
+    .div_img{  
+        height: 80px;
+        width: 350px;
+    }  
+    .img{
+        width: 30px;
+        margin-right: 30px;
+    }
+    .div_area{
+        width: 350px;
+        height: 80px;
+    }
+    .area{
+        width: 60px;
+        height: 60px;
+        border-radius: 10px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 10px ;
+        border: 3px solid black;
+    }
+}
